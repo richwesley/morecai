@@ -3,7 +3,7 @@ var bodyParser = require("body-parser");
 var methodOverride = require("method-override");
 var db = require("./models");
 var port = process.env.PORT || 3000;
-
+const path = require("path");
 var app = express();
 
 // Serve static content for the app from the "public" directory in the application directory.
