@@ -1,0 +1,32 @@
+body {
+    background: url("../img/beer-main.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+h1 {
+    text-shadow: 3px 3px 6px white;
+    font-size: 40px;
+}
+
+h2 {
+    color: blue;
+    text-shadow: 3px 3px 6px white;
+    font-size: 40px;
+}
+
+.panel-transparent {
+    background-color: #ffffff;
+    border: 1px solid #ffffff;
+    opacity: 0.6;
+    filter: alpha(opacity=60);
+    /* For IE8 and earlier */
+}
+
+.panel-transparent p {
+    margin: 5%;
+    font-weight: bold;
+    color: #000000;
+}
